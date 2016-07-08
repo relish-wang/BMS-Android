@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="EditTextStyle">
+        <item name="android:background">@drawable/et_bg</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- Button样式 -->
+    <style name="DeepBtn">
+        <item name="android:background">@drawable/btn_deep</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <!-- Button样式 -->
+    <style name="LightBtn">
+        <item name="android:background">@drawable/btn_light</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+
+    <!-- LargeTextView -->
+    <style name="LargeTextView">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/tv_bg</item>
+        <item name="android:textSize">@dimen/larger_text_size</item>
+    </style>
+
+    <!-- SimpleTextView -->
+    <style name="SimpleTextView">
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <!-- SmallTextView -->
+    <style name="SmallTextView">
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">@dimen/smaller_text_size</item>
+    </style>
+
+
+    <!-- TinyTextView -->
+    <style name="TinyTextView">
+        <item name="android:background">@drawable/tv_bg</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">@dimen/tiny_text_size</item>
+    </style>
+
+    <!-- TinierTextView -->
+    <style name="TinierTextView">
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/tv_bg</item>
+        <item name="android:textSize">@dimen/tinier_text_size</item>
+    </style>
+
+    <!-- toolbar -->
+    <style name="ToolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F57A43</color>
+    <color name="colorPrimaryDark">#97D8D4</color>
+    <color name="colorAccent">#185F8C</color>
+
+    <color name="bottom_bg_color">#fefcfc</color>
+
+
+    <color name="white">#fff</color>
+    <color name="actionbar_color">#f8075e</color>
+    <color name="app_background">#f0f0f0</color>
+    <color name="light_orange">#FAFAFD</color>
+    <color name="deep_orange">#F57A43</color>
+    <color name="gray">#7a7e82</color>
+
+    <color name="simple_text_color">#f8575e</color>
+    <color name="light_text_color">#676767</color>
+    <color name="deep_text_color">#343434</color>
+    <color name="light_gray">#bbb</color>
+
+
+    <color name="et_focus_color">#B2D4DC</color>
+    <color name="et_unfocus_color">#43A7E0</color>
+    <color name="aty_bg_color">#EAEAEA</color>
+    <color name="green">#009688</color>
+    <color name="deep_blue">#436D7D</color>
+
+</resources>
